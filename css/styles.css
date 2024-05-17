@@ -35,6 +35,10 @@
     margin: 10px;
 }
 
+#answer{
+    margin: 5px;
+    padding: 40px;
+}
 form .display{
     display: flex;
     justify-content: flex-end;
@@ -43,20 +47,23 @@ form .display{
 form .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 70px;
     box-shadow: none;
 }
 
 form input.equal{
     width: 145px;
+    margin: 2px;
 }
 
 form input.operator{
-    color: #33ffd8;
+    color: #7b708c;
 }
 
-.AC{
-    color:#33ffd8;
+.operator{
+    color:#7b708c;
+    padding: 12px;
+    margin: 12px;
 }
 
 input{
